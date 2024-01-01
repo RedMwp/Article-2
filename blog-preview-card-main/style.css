@@ -1,0 +1,77 @@
+@font-face {
+  font-family:'Figtree';
+  src: url('assets/fonts/static/Figtree-Italic-VariableFont_wght.ttf');
+}
+*{
+  margin: 0 ;
+  padding: 0;
+  outline: none;
+  font-family:'Figtree',sans-serif;
+}
+body{
+  margin:0 auto;
+  font-size:15px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background:hsl(47, 88%, 63%);
+  min-height:100vh;
+  
+}
+p {
+  font-size.9em;
+  line-height: 1.4;
+  color: hsl(0, 0%, 50%);
+}
+article{
+  width: 300px;
+  min-height:380px;
+  border:2px solid #000;
+  padding:1em;
+  border-radius:8px;
+  box-shadow: 7px 5px 0 #000;
+  background:#fff;
+  transition:all .4s ease-in-out;
+}
+img[alt=illustration]{
+  width: 100%;
+  object-fit:cover;
+  border-radius:8px;
+}
+button{
+  height:35px;
+  padding:0 1.5em;
+  background: hsl(47, 88%, 63%);
+  border:none;
+  border-radius:5px;
+  font-weight: 600;
+  margin:10px 0;
+}
+article p:nth-child(3){
+  font-size:.8em;
+  margin:5px 0;
+  font-weight:600;
+  color:#000;
+}
+h1{
+  font-size:1.5em;
+  margin:20px 0;
+  transition:all .4s ease-in-out;
+}
+.user{
+  display: flex;
+  align-items:center;
+  font-size:.7em;
+  margin-top:20px;
+}
+.user img{
+ width:40px;
+ margin:0 10px;
+ 
+}
+article:hover{
+  box-shadow: 10px 7px 0 #000;
+}
+article:hover h1{
+  color:hsl(47, 88%, 63%);
+}
